@@ -1,0 +1,27 @@
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        if(head == NULL){
+            return NULL;
+        }
+        if(head->next == NULL){
+            return head;
+        }
+        int size = 0, target = 0;
+        int count = 0;
+        ListNode* ans = head;
+            while(ans != NULL){
+                ans = ans->next;
+                size++;
+            }
+            target = size / 2;
+            ans = head;
+        while(ans != NULL){
+            if(count == target){
+                return ans;
+            }
+            ans = ans->next;
+            count++;
+        }
+    }
+};
