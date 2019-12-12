@@ -1,2 +1,2 @@
 # Leetcode
-Solutiion and analysis of Leetcode problems
+Solution and analysis of Leetcode problems
