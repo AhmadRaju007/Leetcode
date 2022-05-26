@@ -1,0 +1,8 @@
+
+At first we will sort out the input array by width asc and if two width is same then sort them by height desc.
+
+Now we will apply **LIS(Longest Increasing Subsequence)** in the height segment. 
+The idea is to insert each element in a **temp** vector if **Wi > latest_item** in our temp vector.
+Otherwise we will find suitable position for **Wi** and insert it in that position replacing previous one.
+
+Finally counting the size of temp will give us the result.
