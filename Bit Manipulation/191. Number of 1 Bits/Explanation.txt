@@ -1,0 +1,1 @@
+Here we just check for every bit whether it is 1 or not. If it is 1, we just increment the result by one.
