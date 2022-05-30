@@ -1,0 +1,13 @@
+At first we take a vector for storing bits.
+
+For each word we start a loop which will do the following-
+
+Now in the nested for loop we just set the initial bitset to 1 to the position of the alphabet. For example if the character is "a" then "a"-"a"=0th position will be set to 1.
+
+If the character is "b" then "b"-"a"=1th position will be set to 1.
+
+This process will continue for each character for the word. Now we know the bitwise value of that word.
+
+In the nested for loop we check whether there is any two words found where the bitset property does not match for them. Because in that case we will store it inside "best" by comparing the value with previous "best"s.
+
+Finally in each iteration we will set the value of bitsets[i] so that we can use it in future calculations in the nested for loop.
