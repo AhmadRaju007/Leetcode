@@ -1,0 +1,5 @@
+This is a classic problem. You need to divide a number without using division or multiplication operator.
+
+Solution is pretty straight forward as you can see. Firstly we handle some corner cases. When it is done we just do multiply the divisor by 2 and keep track of how many times we have multiplied it by two.
+
+Once the multiplication result is greater than the dividend then we know we have reached our limit. We adjust the dividend by subtracting the tmp value and repeat multiplication process till the remainder becomes less than the divisor. Then we stop and produce the result.
