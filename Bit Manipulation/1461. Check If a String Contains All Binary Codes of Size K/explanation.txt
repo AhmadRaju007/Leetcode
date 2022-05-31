@@ -1,0 +1,3 @@
+As property of set is all its items need to be unique, so we will only have unique combinations of size k substrings inside the set.
+
+Now we can validate if the size= 2^k only then it is acceptable and we return true. Otherwise we return false.
