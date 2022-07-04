@@ -1,7 +1,7 @@
 # Leetcode
 This project is aimed to store the easiest soltions possible to leetcode problems.
 
-It will also catagorize problems in different folders and sub folders.
+I will also try to catagorize problems in different folders and sub folders in future. You are cordially invited for contribution.
 
 Language: C++.
 
