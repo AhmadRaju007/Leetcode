@@ -1,0 +1,5 @@
+Greedy Approach :
+
+We can easily calculate the number of candy needed by using an array to store the candy of each child. And after that traverse the rating array twice. The first loop makes sure children with a higher rating get more candy than its left neighbor, the second loop makes sure children with a higher rating get more candy than its right neighbor. At last add the total number of candies. 
+
+Complexity: This approach is O(n) time and O(n) space.
