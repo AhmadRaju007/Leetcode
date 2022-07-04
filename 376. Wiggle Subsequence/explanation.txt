@@ -1,0 +1,7 @@
+The demand of the question is to get INCREASING and DECREASING sequences alternating.
+Now re-arranging of array is not possible, Hence NUMBER OF TIMES ARRAY CHANGES from increasing to decreasing & vice versa REMAINS CONSTANT.
+
+The question can now reduced to find number of times array changes pattern.
+Further , it can be deduced that we have to COUNT THE NUMBER OF PEAKS AND VALLEY POINTS.
+
+Complexity: O(n)
