@@ -1,0 +1,9 @@
+We need to find tha maximum height and maximum width of the cake pieces to find the largest piece. That is the longest gaps between the horizontal and vertical cuts.
+
+So sort the verticalCuts and horizontalCuts lists and find the maximum difference between the cuts.
+
+We run a loop from the 2nd to the last cut for both types of cuts. In each iteration and find the difference of each cut with its previous one. The maximum difference is stored in maxh for height (horizontal) and maxv for width (vertical).
+
+In this previous process we are excluding the first piece and last piece as they are not in between cuts. So just add cut h in horizontalCuts and w in verticalCuts before sorting. In this way we include the last pieces in between cuts. For the first pieces we are initialising them in maxh and maxv (They are simple the first element in the array after sorting). the maxh and maxv will be determined correctly.
+
+In the last return the product of maxh and maxv. Here the product may exceed the integer limit so before maxh*maxv multiply 1LL so that the product converts into long long and mod it by 1e9+7 as stated in the problem.
